@@ -1,0 +1,27 @@
+<ion-header-bar class="bar-calm">
+      <a href="#/tab/cs-course" class="icon ion-ios-arrow-back button button-clear">back</a> 
+      <h1 class="title droid-heading-fix">CS Intro Curriculum</h1>
+      </ion-header-bar>
+
+       <!-- second nav pane 
+
+       <div class="bar bar-subheader ">
+        <div class="button-bar">
+          <a class="button">Introductory</a>
+          <a class="button">Intermediate</a>
+          <a class="button">Advanced</a>
+        </div>
+      </div>
+    -->
+       <ion-content ng-controller="CsListController" class="padding">
+       <!-- curriulum list -->
+        <ion-list>
+          <ion-item  href="#" ng-repeat='course in courses'
+            class="item-thumbnail-left item-text-wrap item-icon-right ">
+            <img id="list-images" ng-src="img/{{course.shortname}}.png" alt="{{course.shortname}} Img">
+            <h2>{{course.name}}</h2>
+            <p>{{course.desc | limitTo: 150}}
+                {{course.desc.length > 250 ? '&hellip;' : ''}}</p>
+            <p><strong>Level:</strong> {{course.level}}</p>
+      </ion-list>
+</ion-content>

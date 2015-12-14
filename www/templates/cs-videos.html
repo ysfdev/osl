@@ -1,0 +1,43 @@
+<ion-header-bar class="bar-calm">
+      <a href="#/tab/cs-course" class="icon ion-ios-arrow-back button button-clear">back</a> 
+        <h1 class="title droid-heading-fix ">CS Videos</h1>
+      </ion-header-bar>
+       <!-- second nav pane -->
+       <!--
+       <div class="bar bar-subheader ">
+        <div class="button-bar">
+          <a class="button">Introductory</a>
+          <a class="button">Intermediate</a>
+          <a class="button">Advanced</a>
+        </div>
+      </div>
+    -->
+       <ion-content ng-controller="CsListController" class="padding">
+       <!-- curriulum list -->
+        <ion-list  class="item-text-wrap">
+          <ion-item  > 
+            <h3>Intro to Computer Science</h3> 
+            <div class="video-container">
+              <iframe ng-src="https://www.youtube-nocookie.com/embed/videoseries?list=PLsoaPSaybrXYI8xfzQP_56HS8ws8mCEjZ&amp;showinfo=0"></iframe> 
+            </div>
+          </ion-item>
+          <ion-item  > 
+            <h3>Introduction to Computer Science and Programming Using Python</h3> 
+            <div class="video-container">
+              <iframe ng-src="https://www.youtube-nocookie.com/embed/videoseries?list=PLsoaPSaybrXbMtu4IqkQYB38ou37qDlIf&amp;showinfo=0"></iframe> 
+            </div>
+          </ion-item>
+          <ion-item  > 
+            <h3>Introduction to Computational Thinking</h3> 
+            <div class="video-container">
+              <iframe ng-src="https://www.youtube-nocookie.com/embed/videoseries?list=PLsoaPSaybrXa1bIEdQ-xbdergp1kAn2VI&amp;showinfo=0"></iframe> 
+            </div>
+          </ion-item>
+          <ion-item  > 
+            <h3>From Nand to Tetris</h3> 
+            <div class="video-container">
+              <iframe ng-src="https://www.youtube-nocookie.com/embed/JtXvUoPx4Qs?controls=0&amp;showinfo=0"></iframe> 
+            </div>
+          </ion-item>
+      </ion-list>
+</ion-content>

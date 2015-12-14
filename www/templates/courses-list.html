@@ -1,0 +1,64 @@
+<ion-header-bar class="bar-calm">
+      <h1 class="title droid-heading-fix">Courses List</h1>
+</ion-header-bar>
+       <!-- second nav pane -->
+<!--
+<div class="bar bar-subheader">
+    <div class="button-bar button-positive">
+        <a href="#/tab/cs-course"class="button">Description</a>
+        <a href="#/tab/cs-curriculum" class="button">Curriculum</a>
+        <a href="#/tab/cs-videos" class="button">Videos</a>
+    </div>
+</div>
+-->
+<ion-content ng-controller="ListController" class="padding ">
+       <!-- curriulum list -->
+    <ion-list >
+        <!-- intro to CS -->
+         <ion-item class="item-thumbnail-left item-text-wrap item-icon-right"
+            href="#/tab/cs-intro" >
+            <img id="list-images" ng-src="img/{{courses[0].shortname}}.png" alt="{{course.shortname}}">
+            <h2>{{courses[0].name}}</h2>
+            <p>{{courses[0].desc | limitTo: 150}}
+                {{courses[0].desc.length > 250 ? '&hellip;' : ''}}</p>
+            <p><strong>Level:</strong> {{courses[0].level}}</p>
+        </ion-item>
+        <!-- MAth Course -->
+        <ion-item class="item-thumbnail-left item-text-wrap item-icon-right" 
+            href="#/tab/math-course" >
+            <img id="list-images" ng-src="img/{{courses[1].shortname}}.png" alt="{{course.shortname}}">
+            <h2>{{courses[1].name}}</h2>
+            <p>{{courses[1].desc | limitTo: 150}}
+                {{courses[1].desc.length > 250 ? '&hellip;' : ''}}</p>
+            <p><strong>Level:</strong> {{courses[2].level}}</p>
+        </ion-item>
+        <!-- Program Design -->
+        <ion-item class="item-thumbnail-left item-text-wrap item-icon-right" 
+            href="#/tab/pdesign-course" >
+            <img id="list-images" ng-src="img/{{courses[2].shortname}}.png" alt="{{course.shortname}}">
+            <h2>{{courses[2].name}}</h2>
+            <p>{{courses[2].desc | limitTo: 250}}
+                {{courses[2].desc.length > 250 ? '&hellip;' : ''}}</p>
+            <p><strong>Level:</strong> {{courses[2].level}}</p>
+        </ion-item>
+           <!-- Algorithms course -->
+        <ion-item class="item-thumbnail-left item-text-wrap item-icon-right" 
+            href="#/tab/algo-course" >
+            <img id="list-images" ng-src="img/{{courses[3].shortname}}.png" alt="{{course.shortname}}">
+            <h2>{{courses[3].name}}</h2>
+            <p>{{courses[3].desc | limitTo: 150}}
+                {{courses[3].desc.length > 250 ? '&hellip;' : ''}}</p>
+            <p><strong>Level:</strong> {{courses[3].level}}</p>
+        </ion-item>
+           <!-- Programming Paradigms -->
+        <ion-item class="item-thumbnail-left item-text-wrap item-icon-right" 
+            href="#/tab/pparadigm-course" >
+            <img id="list-images" ng-src="img/{{courses[4].shortname}}.png" alt="{{course.shortname}}">
+            <h2>{{courses[4].name}}</h2>
+            <p>{{courses[4].desc | limitTo: 150}}
+                {{courses[4].desc.length > 250 ? '&hellip;' : ''}}</p>
+            <p><strong>Level:</strong> {{courses[4].level}}</p>
+       </ion-item>
+
+    </ion-list>
+</ion-content>

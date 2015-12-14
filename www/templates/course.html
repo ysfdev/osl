@@ -1,0 +1,48 @@
+<ion-header-bar class="bar-calm">
+      <a href="#/tab/courses"class="icon ion-ios-arrow-back button button-clear">back</a> 
+      <h1 class="title">Course Info</h1>
+</ion-header-bar>
+<!-- second nav pane -->
+
+<ion-view>
+  <ion-content>
+  <ion-list class="card">
+    <ion-item class="item-text-wrap"
+      ng-repeat="course in courses">
+      <!--<img src="img/{{course.shortname}}.png" alt="{{course.name}} Img"> -->
+         <h2>{{course.name}}</h2>
+            <p>{{course.desc | limitTo: 150}}
+                {{course.desc.length > 250 ? '&hellip;' : ''}}</p>
+            <p><strong>Level:</strong> {{course.level}}</p>
+            <p>{{course.courseList.name}}</p>
+    </ion-item>
+ </ion-list>
+</ion-content>  
+</ion-view>
+ 
+
+      <!--
+       <h2> CS Course</h2>
+       <p> The Computer Science course will provide you a completed guideline to online material to sucessfully accomplish the required courses to master your programming skills.</p>
+
+        <ion-list>
+          <ion-item class="item-divider">
+            <h2>Are You...</h2>
+         </ion-item>
+          <ion-item >
+             <h2><i class="icon icon-right ion-checkmark"> </i> Self Motivated</h2>
+          </ion-item>
+          <ion-item >
+             <h2><i class="icon icon-left ion-checkmark"> </i> Technology Passionate</h2>
+          </ion-item>
+          <ion-item >
+             <h2><i class="icon icon-left ion-checkmark"> </i> Programming Interested</h2>
+          </ion-item>
+          <div class="start-learning-btn">
+          <a class="button button-full button-calm">Start Learning</a>
+        </div>
+      </ion-list>
+      
+      </div>
+    -->
+

@@ -1,0 +1,38 @@
+[
+	{
+		"name":"Intro to Computer Science",
+		"desc":"An introduction course to computer science classes from MIT.",
+		"level": "Beginner",
+		"shortname": "computer_science"
+	},
+
+	{
+		"name":"Program Design",
+		"desc":"Learn the basics of Program Designs patterns.",
+		"level": "Beginner",
+		"shortname": "program_design"
+	},
+
+	{
+		"name":"Algorithms",
+		"desc":"Understand the most known Algorithms and Data Sctructures.",
+		"level": "Intermediate",
+		"shortname": "programming_algorithms"
+	},
+
+	{
+		"name":"Programming Paradigms",
+		"desc":"A quick intro to the Paradigms of software development.",
+		"level": "Intermediate",
+		"shortname": "programming_paradigms"
+	},
+
+	{
+		"name":"Software Testing",
+		"desc":"Get started with the best practices of software testing.",
+		"level": "Intermediate",
+		"shortname": "software_testing"
+	}
+
+
+]

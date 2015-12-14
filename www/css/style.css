@@ -1,0 +1,83 @@
+/* Empty. Add your own CSS if you like */
+/* 
+MAIN page-break-inside: */
+
+.entrance-img{
+
+	height: 350px !important; 
+	margin: 0 auto -50px;
+	max-width: 250px;
+	text-align: center;
+
+}
+
+
+.card-head {
+	background-color: #006699; 
+}
+
+.card-head h1{
+	color: #fff; 
+	font-size: 25px;
+	padding: 2px;
+}
+
+
+.second-heading {
+	background-color: #006699 ;
+	font-size: 20px; 
+}
+
+.start-learning-btn {
+
+	/*margin-top: -8px; */
+}
+
+/* 
+GENERAL
+*/
+
+.item-divider h2{
+
+	font-size: 30px;
+}
+
+.video-container{
+
+	frameborder:0;
+	width:560;
+	height:350;
+	showinfo:0;
+
+}
+
+#list-images {
+
+	width: 150px;
+
+}
+
+.droid-heading-fix{
+
+	text-align: center !important; 
+	
+}
+
+.about-content{
+
+	margin-top:20px;
+
+}
+
+.about-img{
+
+	margin-top:30px;
+	width: 350px;
+}
+
+.course-heading-images{
+
+	
+	width:350px;
+
+}

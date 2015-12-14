@@ -1,0 +1,68 @@
+[
+	{
+		"name":"Intro to Computer Science",
+		"desc":"An introduction to the intellectual enterprises of computer science and the art of programming.",
+		"level": "Introductory",
+		"shortname": "computer_science",
+		"short":"cs_course",
+		"courseList": 
+					[
+
+						{
+							"name":"Intro to Computer Science",
+							"desc":"An introduction to the intellectual enterprises of computer science and the art of programming.",
+							"level": "Introductory",
+							"shortname": "computer_science",
+							"vhref":"https://www.youtube.com/watch?v=z-OxzIC6pic1"
+						},
+
+						{
+							"name":"Introduction to Computer Science and Programming Using Python",
+							"desc":" An introduction to computer science as a tool to solve real-world analytical problems.",
+							"level": "Introductory",
+							"shortname": "computer_science_python",
+							"vhref": "https://www.youtube.com/watch?v=nyX815VByIc"
+						}
+					]						
+		},
+
+		{
+			"name":"Math (Mathematical Thinking)",
+			"desc":"Understand the fundamentals of computer mathematical algorithms.",
+			"level": "Introductory",
+			"shortname": "mathematical_thinking"
+		},	
+
+		{
+			"name":"Program Design",
+			"desc":"Learn the basics of Program Designs patterns.",
+			"level": "Introductory",
+			"shortname": "program_design"
+		},
+
+		{
+			"name":"Algorithms",
+			"desc":"Understand the most known Algorithms and Data Sctructures.",
+			"level": "Intermediate",
+			"shortname": "programming_algorithms"
+		},
+
+		{
+			"name":"Programming Paradigms",
+			"desc":"A quick intro to the Paradigms of software development.",
+			"level": "Intermediate",
+			"shortname": "programming_paradigms"
+		},
+
+		{
+			"name":"Software Testing",
+			"desc":"Get started with the best practices of software testing.",
+			"level": "Intermediate",
+			"shortname": "software_testing"
+		}
+
+]
+
+
+
+

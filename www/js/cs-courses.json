@@ -1,0 +1,35 @@
+[
+	{
+		"name":"Intro to Computer Science",
+		"desc":"An introduction to the intellectual enterprises of computer science and the art of programming.",
+		"level": "Introductory",
+		"shortname": "computer_science",
+		"vhref":"https://www.youtube-nocookie.com/embed/videoseries?list=PLsoaPSaybrXYI8xfzQP_56HS8ws8mCEjZ&amp;showinfo=0"
+	},
+
+	{
+		"name":"Introduction to Computer Science and Programming Using Python",
+		"desc":" An introduction to computer science as a tool to solve real-world analytical problems.",
+		"level": "Introductory",
+		"shortname": "computer_science_python",
+		"vhref":"https://www.youtube-nocookie.com/embed/videoseries?list=PLsoaPSaybrXbMtu4IqkQYB38ou37qDlIf&amp;showinfo=0"
+	},
+
+	{
+		"name":"Introduction to Computational Thinking and Data Science",
+		"desc":"An introduction to using computation to understand real-world phenomena.",
+		"level": "Intermediate",
+		"shortname": "intro_computational_thinking",
+		"vhref":"https://www.youtube-nocookie.com/embed/videoseries?list=PLsoaPSaybrXa1bIEdQ-xbdergp1kAn2VI&amp;showinfo=0"
+	},
+
+	{
+		"name":"From Nand to Tetris",
+		"desc":"Build a modern computer system, starting from first principles.",
+		"level": "Intermediate",
+		"shortname": "nand_tetris",
+		"vref":"https://www.youtube-nocookie.com/embed/JtXvUoPx4Qs?controls=0&amp;showinfo=0"
+	}
+
+
+]
